@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plister Ochanyo | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Plister Ochanyo</h1>
+        <p>Diploma in Software Engineering | Web Developer | IT Support</p>
+    </header>
+
+    <!-- ABOUT -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a motivated Software Engineering graduate with a Diploma in Software Engineering
+            completed in 2026 at Zetech University. I have strong skills in web development using
+            HTML and basic CSS, as well as foundational knowledge in Information Technology.
+            I am passionate about learning, problem-solving, and building clean, user-friendly websites.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>Basic CSS</li>
+            <li>Web Page Structure & Layout</li>
+            <li>Basic JavaScript</li>
+            <li>IT Support & Troubleshooting</li>
+            <li>Microsoft Word & Excel</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section>
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>A clean personal portfolio website built using HTML and CSS.</p>
+        </div>
+
+        <div class="project">
+            <h3>Simple Business Website</h3>
+            <p>A static website with navigation, images, and forms using HTML.</p>
+        </div>
+
+        <div class="project">
+            <h3>Practice Web Pages</h3>
+            <p>Multiple practice projects demonstrating tables, forms, and layouts.</p>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section>
+        <h2>Education</h2>
+        <p>
+            <strong>Diploma in Software Engineering</strong><br>
+            Zetech University<br>
+            Completed: 2026
+        </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section>
+        <h2>Contact</h2>
+        <p>Email: yourname@email.com</p>
+        <p>Phone: 07XXXXXXXX</p>
+        <p>GitHub: github.com/plisterochanyo</p>
+        <p>Portfolio: https://plisterochanyo.github.io</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Plister Ochanyo</p>
+    </footer>
+
+</body>
+</html>
