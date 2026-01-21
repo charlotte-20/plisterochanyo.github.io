@@ -7,13 +7,12 @@
 body { 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     line-height: 1.6; 
-    max-width: 850px; 
-    margin: 0 auto; 
+    max-width: 800px; /* Changing this to 800px fixes the long lines */
+    margin: 0 auto;   /* This centers the resume on the screen */
     padding: 40px 20px; 
     color: var(--text);
     background-color: var(--bg);
 }
-
 header { 
     text-align: center; 
     border-bottom: 3px solid var(--primary); 
@@ -30,5 +29,6 @@ h2 { border-left: 5px solid var(--primary); padding-left: 15px; margin-top: 40px
 .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 
 @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+
 
 
