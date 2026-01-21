@@ -1,84 +1,104 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plister Ochanyo | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --text: #1f2937;
+            --bg: #f9fafb;
+        }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            max-width: 850px; 
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            color: var(--text);
+            background-color: var(--bg);
+        }
+        header { 
+            text-align: center; 
+            border-bottom: 3px solid var(--primary); 
+            padding-bottom: 20px; 
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0; color: var(--primary); font-size: 2.5rem; }
+        .contact-info { margin-top: 10px; font-size: 0.95rem; color: #4b5563; }
+        .contact-info a { color: var(--primary); text-decoration: none; font-weight: bold; }
+        h2 { border-left: 5px solid var(--primary); padding-left: 15px; margin-top: 40px; text-transform: uppercase; font-size: 1.2rem; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+    </style>
 </head>
 <body>
 
-    <!-- HEADER -->
-    <header>
-        <h1>Plister Ochanyo</h1>
-        <p>Diploma in Software Engineering | Web Developer | IT Support</p>
-    </header>
+<header>
+    <h1>PLISTER OCHANYO</h1>
+    <p><strong>Software Engineering Graduate | Web Developer</strong></p>
+    <div class="contact-info">
+        📍 Kenya | 📞 +254 790 291 526 | ✉️ <a href="mailto:asunaplister@gmail.com">asunaplister@gmail.com</a><br>
+        🌐 Portfolio: <a href="https://charlotte-20.github.io/">charlotte-20.github.io</a> | 
+        🐙 GitHub: <a href="https://github.com/charlotte-20">charlotte-20</a>
+    </div>
+</header>
 
-    <!-- ABOUT -->
+<section>
+    <h2>Professional Summary</h2>
+    <p>Motivated Software Engineering graduate with strong foundations in web development, programming, and IT systems. Skilled in building clean, responsive websites and writing efficient code. Eager to apply technical knowledge in a practical environment and continue growing as a developer.</p>
+</section>
+
+<div class="grid">
     <section>
-        <h2>About Me</h2>
-        <p>
-            I am a motivated Software Engineering graduate with a Diploma in Software Engineering
-            completed in 2026 at Zetech University. I have strong skills in web development using
-            HTML and basic CSS, as well as foundational knowledge in Information Technology.
-            I am passionate about learning, problem-solving, and building clean, user-friendly websites.
-        </p>
-    </section>
-
-    <!-- SKILLS -->
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>Basic CSS</li>
-            <li>Web Page Structure & Layout</li>
-            <li>Basic JavaScript</li>
-            <li>IT Support & Troubleshooting</li>
-            <li>Microsoft Word & Excel</li>
-        </ul>
-    </section>
-
-    <!-- PROJECTS -->
-    <section>
-        <h2>Projects</h2>
-
-        <div class="project">
-            <h3>Personal Portfolio Website</h3>
-            <p>A clean personal portfolio website built using HTML and CSS.</p>
-        </div>
-
-        <div class="project">
-            <h3>Simple Business Website</h3>
-            <p>A static website with navigation, images, and forms using HTML.</p>
-        </div>
-
-        <div class="project">
-            <h3>Practice Web Pages</h3>
-            <p>Multiple practice projects demonstrating tables, forms, and layouts.</p>
+        <h2>Technical Skills</h2>
+        <div class="card">
+            <ul>
+                <li><strong>Languages:</strong> HTML5, CSS3, C, Python (Basic)</li>
+                <li><strong>Web Development:</strong> Responsive Design, UI/UX Basics</li>
+                <li><strong>Tools:</strong> Git, GitHub, VS Code, Dev-C++</li>
+                <li><strong>Networking:</strong> Computer Networks (CCNA)</li>
+            </ul>
         </div>
     </section>
 
-    <!-- EDUCATION -->
     <section>
         <h2>Education</h2>
-        <p>
-            <strong>Diploma in Software Engineering</strong><br>
+        <div class="card">
+            <p><strong>Diploma in Software Engineering</strong><br>
             Zetech University<br>
-            Completed: 2026
-        </p>
+            <em>Completed 2026</em></p>
+            <p><small>Coursework: OOP, Operating Systems, System Analysis & Design, Discrete Math.</small></p>
+        </div>
     </section>
+</div>
 
-    <!-- CONTACT -->
-    <section>
-        <h2>Contact</h2>
-        <p>Email: yourname@email.com</p>
-        <p>Phone: 07XXXXXXXX</p>
-        <p>GitHub: github.com/plisterochanyo</p>
-    </section>
+<section>
+    <h2>Projects & Experience</h2>
+    <div class="card">
+        <p><strong>Academic & Personal Projects</strong></p>
+        <ul>
+            <li>Developed responsive web layouts using modern CSS techniques.</li>
+            <li>Implemented logic-based tasks and patterns using C and Python.</li>
+            <li>Applied Object-Oriented Programming (OOP) principles to software design assignments.</li>
+            <li>Documented system requirements and analysis for student-led software projects.</li>
+        </ul>
+    </div>
+</section>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 Plister Ochanyo</p>
-    </footer>
+<section>
+    <h2>Soft Skills</h2>
+    <p>Time Management | Willingness to Learn | Team Collaboration | Clear Communication</p>
+</section>
+
+<footer style="margin-top: 50px; text-align: center; font-size: 0.8rem; color: #9ca3af;">
+    &copy; 2026 Plister Ochanyo - References available upon request.
+</footer>
 
 </body>
 </html>
