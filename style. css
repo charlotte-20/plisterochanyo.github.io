@@ -1,85 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Plister Ochanyo | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+:root {
+    --primary: #2563eb;
+    --text: #1f2937;
+    --bg: #f9fafb;
+}
 
-    <!-- HEADER -->
-    <header>
-        <h1>Plister Ochanyo</h1>
-        <p>Diploma in Software Engineering | Web Developer | IT Support</p>
-    </header>
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.6; 
+    max-width: 850px; 
+    margin: 0 auto; 
+    padding: 40px 20px; 
+    color: var(--text);
+    background-color: var(--bg);
+}
 
-    <!-- ABOUT -->
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I am a motivated Software Engineering graduate with a Diploma in Software Engineering
-            completed in 2026 at Zetech University. I have strong skills in web development using
-            HTML and basic CSS, as well as foundational knowledge in Information Technology.
-            I am passionate about learning, problem-solving, and building clean, user-friendly websites.
-        </p>
-    </section>
+header { 
+    text-align: center; 
+    border-bottom: 3px solid var(--primary); 
+    padding-bottom: 20px; 
+    margin-bottom: 30px;
+}
 
-    <!-- SKILLS -->
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>Basic CSS</li>
-            <li>Web Page Structure & Layout</li>
-            <li>Basic JavaScript</li>
-            <li>IT Support & Troubleshooting</li>
-            <li>Microsoft Word & Excel</li>
-        </ul>
-    </section>
+h1 { margin: 0; color: var(--primary); font-size: 2.5rem; }
 
-    <!-- PROJECTS -->
-    <section>
-        <h2>Projects</h2>
+.contact-info { margin-top: 10px; font-size: 0.95rem; color: #4b5563; }
 
-        <div class="project">
-            <h3>Personal Portfolio Website</h3>
-            <p>A clean personal portfolio website built using HTML and CSS.</p>
-        </div>
+h2 { border-left: 5px solid var(--primary); padding-left: 15px; margin-top: 40px; text-transform: uppercase; font-size: 1.2rem; }
 
-        <div class="project">
-            <h3>Simple Business Website</h3>
-            <p>A static website with navigation, images, and forms using HTML.</p>
-        </div>
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 
-        <div class="project">
-            <h3>Practice Web Pages</h3>
-            <p>Multiple practice projects demonstrating tables, forms, and layouts.</p>
-        </div>
-    </section>
+@media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
 
-    <!-- EDUCATION -->
-    <section>
-        <h2>Education</h2>
-        <p>
-            <strong>Diploma in Software Engineering</strong><br>
-            Zetech University<br>
-            Completed: 2026
-        </p>
-    </section>
-
-    <!-- CONTACT -->
-    <section>
-        <h2>Contact</h2>
-        <p>Email: yourname@email.com</p>
-        <p>Phone: 07XXXXXXXX</p>
-        <p>GitHub: github.com/plisterochanyo</p>
-        <p>Portfolio: https://plisterochanyo.github.io</p>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 Plister Ochanyo</p>
-    </footer>
-
-</body>
-</html>
