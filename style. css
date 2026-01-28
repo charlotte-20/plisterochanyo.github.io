@@ -1,55 +1,5 @@
 
-/* General Layout */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-}
 
-header {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-/* The Grid System - This handles your "grid" class */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-/* Card Styling - This handles your "card" class */
-.card {
-    background: #ffffff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-}
-
-/* List styling inside cards */
-.card ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.card li {
-    margin-bottom: 10px;
-}
-
-/* Link Styling */
-.contact-info a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
 
 
 
